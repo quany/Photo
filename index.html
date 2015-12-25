@@ -62,6 +62,19 @@
 
 	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<!-- Start of Rocket.Chat Livechat Script -->
+<script type="text/javascript">
+(function(w, d, s, f, u) {
+	w[f] = w[f] || [];
+	w[f].push(u);
+	var h = d.getElementsByTagName(s)[0],
+		j = d.createElement(s);
+	j.async = true;
+	j.src = 'http://localhost:3000/packages/rocketchat_livechat/assets/rocket-livechat.js';
+	h.parentNode.insertBefore(j, h);
+})(window, document, 'script', 'initRocket', 'http://localhost:3000/livechat');
+</script>
+<!-- End of Rocket.Chat Livechat Script -->
 </body>
 
 </html>
